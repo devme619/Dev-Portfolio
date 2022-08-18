@@ -1,0 +1,33 @@
+.about{
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    background-color: #f9a100;
+    width: 50%;
+    border-radius: 22px;
+}
+.me-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.btn-img{
+    border-radius: 50%;
+    cursor: pointer;
+    border: orange solid;
+}
+.photo{
+    margin: 25px;
+    padding: 0px;
+    width: 50%;
+    text-align: center;
+}
+.content{
+    width: 50%;
+    text-align: center;
+    padding: 2px;
+}
+p{
+    font-family: 'Roboto';
+    color: whitesmoke;
+}

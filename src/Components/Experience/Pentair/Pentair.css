@@ -1,0 +1,29 @@
+.pentair{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    background-color: #f9a100;
+    text-align: center;
+    font-family: 'Roboto';
+    color: whitesmoke;
+    margin-left: 5%;
+    border-radius: 22px;
+}
+.pentair-img{
+    height: 175px;
+    padding: 15px;
+    margin-top: 21px;
+}
+.btn-pentair{
+    width: fit-content;
+    margin: auto;
+    background-color: #9191a6;
+    border: orange;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-pentair:hover{
+    background-color: white;
+    font-size: large;
+}

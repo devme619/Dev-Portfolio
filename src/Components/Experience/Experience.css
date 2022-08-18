@@ -1,0 +1,15 @@
+.experience{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading{
+    background-color: orange;
+    width: 70%;
+    margin: auto;
+    border-radius: 6px;
+    padding: 1px;
+    color: whitesmoke;
+    font-family: 'Roboto';
+    margin-top: 115px;
+}
