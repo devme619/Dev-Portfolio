@@ -1,7 +1,7 @@
 import React from "react";
 import expensetracker from "../../../Photos/expensetracker.png";
 import "./ExpenseTracker.css";
-const ExpenseTracker = () => {
+const ExpenseTracker = (props) => {
   return (
         <div>
           <h3>Expense-Tracker</h3>
@@ -12,7 +12,7 @@ const ExpenseTracker = () => {
               alt="expensetracker"
             />
           </div>
-          <button className="btn-expense">Show Details</button>
+          <button className="btn-expense" onClick={()=>{props.setExpensetrackerTrigger(true)}}>Show Details</button>
         </div>
   );
 };

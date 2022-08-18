@@ -42,4 +42,13 @@
     color: whitesmoke;
     margin-left: 5%;
     border-radius: 22px;
+    margin-right: 5%;
+}
+.expense-tracker-popup{
+    background-color: #997b45;
+    margin: 20px;
+}
+.omdbapi-popup{
+    background-color: #997b45;
+    margin: 20px;
 }
