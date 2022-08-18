@@ -1,0 +1,19 @@
+.expensetracker-img{
+    height: 175px;
+    padding: 15px;
+}
+.expensetracker-img:hover{
+    padding: 20px;
+}
+.btn-expense{
+    width: fit-content;
+    margin: auto;
+    background-color: #9191a6;
+    border: orange;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-expense:hover{
+    background-color: white;
+    font-size: large;
+}

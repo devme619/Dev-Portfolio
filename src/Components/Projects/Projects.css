@@ -1,0 +1,45 @@
+.projects{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.project-heading{
+    background-color: orange;
+    width: 70%;
+    margin: auto;
+    border-radius: 6px;
+    padding: 1px;
+    color: whitesmoke;
+    font-family: 'Roboto';
+    margin-top: 115px;
+}
+.projects-list{
+    display: flex;
+    margin-top: 50px;
+}
+.expense-tracker{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 15px;
+    background-color: #f9a100;
+    text-align: center;
+    font-family: 'Roboto';
+    color: whitesmoke;
+    margin-left: 5%;
+    border-radius: 22px;
+   
+}
+.omdb-api{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 15px;
+    background-color: #f9a100;
+    text-align: center;
+    font-family: 'Roboto';
+    color: whitesmoke;
+    margin-left: 5%;
+    border-radius: 22px;
+}

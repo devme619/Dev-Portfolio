@@ -6,7 +6,7 @@ const Experience = () => {
   const [isroTrigger, setIsroTrigger] = useState(false);
   const [pentairTrigger, setPentairTrigger] = useState(false);
   return (
-    <div className="experience-page">
+    <div id="experience" className="experience-page">
       <div className="heading">
         <h2>Experience</h2>
       </div>
@@ -79,7 +79,7 @@ const Experience = () => {
           ""
         )}
       </div>
-      <div id="experience" className="experience">
+      <div  className="experience">
         <ExperienceIsro setIsroTrigger={setIsroTrigger} />
         <Pentair  setPentairTrigger={setPentairTrigger}/>
       </div>

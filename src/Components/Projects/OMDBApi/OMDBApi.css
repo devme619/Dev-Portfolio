@@ -1,0 +1,19 @@
+.omdbapi-img{
+    height: 175px;
+    padding: 15px;
+}
+.omdbapi-img:hover{
+    padding: 20px;
+}
+.btn-omdb{
+    width: fit-content;
+    margin: auto;
+    background-color: #9191a6;
+    border: orange;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-omdb:hover{
+    background-color: white;
+    font-size: large;
+}
